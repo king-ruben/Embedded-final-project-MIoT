@@ -1,0 +1,10 @@
+{
+    "target_overrides": {
+        "*": {
+            "platform.stdio-convert-newlines": true,
+            "platform.minimal-printf-enable-floating-point": true,
+            "rtos.thread-stack-size": 2048,
+            "rtos.main-thread-stack-size": 3072
+        }
+    }
+}
